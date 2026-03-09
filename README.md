@@ -34,7 +34,7 @@ The repository contains a main Google Colab training notebook (`ipl_rl.ipynb`), 
 ## Data Pipeline
 
 ### Ball-by-Ball Dataset
-
+The dataset is availabe here https://www.kaggle.com/datasets/kartikkrishna22/ipl-ball-by-ball-dataset-till-2025
 The raw dataset contains 278,205 rows with one row per ball bowled across multiple IPL seasons. It records the match ID, innings, over, ball number, batter on strike, current bowler, runs scored, whether a wicket fell, and the target score for the second innings. From this, a batting candidates table of roughly 51,245 rows and a bowling candidates table of roughly 238,211 rows were constructed — each row representing a potential selection decision at a specific match state, labelled with whether the candidate was actually chosen.
 
 ### Player Details Dataset
